@@ -23,3 +23,32 @@
 
     <style name="Theme.CryptocurrencyApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
+
+<!--    parent: This sets the parent theme for the style. In this case,
+it is Theme.MaterialComponents.DayNight.DarkActionBar, which is a Material
+Components theme with a dark action bar.-->
+
+<!--    colorPrimary: This sets the primary brand color for the app.
+It is set to @color/primary, which is likely defined in the app's colors.xml file.
+ The primary color is used for elements such as the toolbar and the default color of progress indicators.-->
+
+<!--    colorPrimaryVariant: This sets a variant of the primary brand color.
+In this case, it is set to the same color as colorPrimary.
+This color is used for elements that require a slightly different shade of the primary color.-->
+
+<!--    colorOnPrimary: This sets the text color for elements on the primary brand color.
+ It is set to @color/white, which is likely a light color that will be visible on the app's primary color.-->
+
+<!--    colorSecondary: This sets the secondary brand color for the app.
+ It is set to the same color as colorPrimary.
+ The secondary color is used for elements such as the FAB and other interactive elements.-->
+
+<!--    colorSecondaryVariant: This sets a variant of the secondary brand color.
+ In this case, it is set to the same color as colorPrimary.
+ This color is used for elements that require a slightly different shade of the secondary color.-->
+
+<!--    colorOnSecondary: This sets the text color for elements on the secondary brand color.
+ It is set to @color/black, which is likely a dark color that will be visible on the app's secondary color.-->
+
+<!--    android:statusBarColor: This sets the color of the status bar for the app.
+It is set to @color/dark_gray, which is likely a dark color that matches the app's overall theme.-->
